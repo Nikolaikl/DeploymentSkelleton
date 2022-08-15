@@ -11,7 +11,7 @@ TODAY = datetime.date.today()
 
 
 
-def train(ticker="MSFT"):
+def train():
 
     # Simple Setup so Far - maybe work in git branches to work out different use cases
     model = xgb.XGBClassifier()
