@@ -1,0 +1,31 @@
+# Package Overview
+package_name: model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+target: Y
+
+pipeline_name: model
+pipeline_save_file: model_output_v
+
+# If variables have numerics in them chang them 
+variables_to_rename:
+  # -1var : FirstVar 
+
+features:
+  # Add varialbes
+  #- Var1 
+
+# set train/test split
+test_size: 0.4
+
+# to set the random seed
+random_state: 0
+
+# Set hyperparameters for the models
+# alpha: 0.1
+# lambda 0.5
+
+
